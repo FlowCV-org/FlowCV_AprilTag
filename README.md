@@ -17,6 +17,6 @@ Build Steps:
 ```shell
 mkdir Build
 cd Build
-cmake .. -DREALSENSE_DIR=/path/to/librealsense -DFlowCV_DIR=/path/to/FlowCV/FlowCV_SDK
+cmake .. -DFlowCV_DIR=/path/to/FlowCV/FlowCV_SDK
 make
 ```
